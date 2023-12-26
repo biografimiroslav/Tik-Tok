@@ -53,7 +53,7 @@ body {
 }
 
 .submit:hover {
-  cursor: pointer;
+cursor: default;
 }
 
 .submit {
@@ -65,7 +65,6 @@ body {
   font-weight: 700;
   font-family: Roboto, sans-serif;
   padding: 6px 10px;
-  cursor: pointer;
   margin-top: 21px;
   min-height: 46px;
 }
@@ -190,6 +189,10 @@ main {
   height: 800px;
 }
 
+.p-tex {
+  margin-left: -197px;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     font-family: "Fira Code", "Headland One", "Inter", "Lunasima", "Montserrat",
@@ -198,6 +201,9 @@ main {
     padding: 0;
   }
 
+  .p-tex {
+    margin-left: -197px;
+  }
   .header {
     padding-top: 10px;
     padding-left: 10px;
@@ -392,6 +398,7 @@ main {
     padding: 0;
   }
 
+
   .header {
     padding-top: 10px;
     padding-left: 10px;
@@ -428,6 +435,9 @@ main {
     -webkit-justify-content: space-between;
     justify-content: space-between;
     margin-bottom: 5px;
+  }
+  .p-tex {
+   opacity: 0;
   }
 
   .forg-pas {
@@ -552,7 +562,7 @@ main {
 
   .submit {
     height: 44px;
-    width: 300px;
+    width: 320px;
     margin-top: 20px;
     min-height: 40px;
   }

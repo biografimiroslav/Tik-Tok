@@ -25,6 +25,7 @@ function togglePassword() {
       if (value1 !== "" && value2 !== "") {
         myButton.style.backgroundColor = "rgba(254, 44, 85, 1)"; // Любой цвет, который вам нравится
         myButton.style.color = "#fff";
+        myButton.style.cursor = "pointer"
       } else {
         myButton.style.backgroundColor = ""; // Если одно из полей пустое, сбрасываем цвет
       }
