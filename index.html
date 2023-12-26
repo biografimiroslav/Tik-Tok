@@ -1,52 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TikTok</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok</title>
+    <link rel="Website icon" href="https://img.icons8.com/color/32/tiktok--v1.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <div class="centre">
-      <a href="#">
-        <img class="logo-head" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/2560px-TikTok_logo.svg.png" alt="">
-      </a>
-    </div>
-  </header>
-  <main>
-    <div class="centre">
-      <h1 class="title">Войти</h1>
-      <div class="ul-log">
-        <label for="useremail" class="form-label">
-          <input id="useremail" class="form-input" type="email" placeholder="Почта или имя пользователя" />
-        </label>
-        <div class="password-toggle">
-          <div class="input-with-button">
-            <input id="passwordInput" class="form-input" type="password" placeholder="Пароль" />
-            <button class="toggle-btn" onclick="togglePassword()">Скрыть</button>
-          </div>
+    <header class="header">
+        <div style="max-width: 1920px; margin: 0 auto;"> <!-- Обернуть содержимое header в контейнер с максимальной шириной для центрирования -->
+            <a href="#">
+                <img class="logo-head" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/2560px-TikTok_logo.svg.png" alt="">
+            </a>
         </div>
-        <a class="forg-pas" href="">Забыли пароль?</a>
-        <div class="curs">
-          <button id="myButton" class="submit">Войти</button>
+    </header>
+    <main>
+        <h1 class="title">Войти</h1>
+        <div class="ul-log">
+            <label for="useremail" class="form-label">
+                <input id="useremail" class="form-input" type="email" placeholder="Почта или имя пользователя" />
+            </label>
+            <div class="password-toggle">
+                <div class="input-with-button">
+                    <input id="passwordInput" class="form-input" type="password" placeholder="Пароль" />
+                    <button class="toggle-btn" onclick="togglePassword()">Скрыть</button>
+                </div>
+            </div>
+            <a class="forg-pas" href="">Забыли пароль?</a>
+            <div class="curs">
+                <button id="myButton" class="submit">Войти</button>
+            </div>
         </div>
-      </div>
+    </main>
+    <div class="reg">
+        <h3>Еще нет аккаунта? <a class="registr" href="">Регистрация</a></h3>
     </div>
-  </main>
-  <div class="reg">
-    <h3>Еще нет аккаунта? <a class="registr" href="">Регистрация</a></h3>
-  </div>
-  <footer class="footer">
-      <section class="regin">
-          <h2 class="regi-tex">Русский (Россия)</h2>
-      </section>
-    <div class="tiktok-1hvykal-DivCopyright e3chlt82">
-      <p>
-          © 2023 TikTok
-      </p>
-    </div>
-  </footer>
-  <script src="./script.js"></script>
+    <footer class="footer">
+        &copy; 2023 TikTok
+    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
