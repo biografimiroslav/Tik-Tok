@@ -385,7 +385,7 @@ main {
     }
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 400px) {
     body {
         font-family: "Fira Code", "Headland One", "Inter", "Lunasima", "Montserrat", "Noto Sans", "Playfair Display", "PT Serif", "Roboto", sans-serif;
         margin: 0;
@@ -436,7 +436,7 @@ main {
     font-weight: 600;
     margin-top: 10px;
     font-size: 14px;
-    margin-left: -295px;
+    margin-left: -195px;
     display: inlin-block;
     }
     
@@ -448,7 +448,7 @@ main {
     border-radius: 4px;
     border: none;
     color: rgba(22, 24, 35, 0.34);
-    width: 450px;
+    width: 300px;
     font-size: 16px;
     font-weight: 700;
     font-family: Roboto, sans-serif;
@@ -543,7 +543,7 @@ main {
     }
     
     .form-input {
-        width: 400px;
+        width: 300px;
         height: 44px;
     }
     
@@ -553,7 +553,7 @@ main {
     
     .submit {
         height: 44px;
-        width: 420px;
+        width: 300px;
         margin-top: 20px;
         min-height: 40px;
     }
