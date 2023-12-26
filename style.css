@@ -1,0 +1,206 @@
+.header {
+  height: 70px;
+  display: flex;
+  border-bottom: 2px #c8c8c8 solid;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  font-family: "Headland One", serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Lunasima", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "PT Serif", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-head {
+  width: 130px;
+  display: block;
+  display: flex;
+  cursor: pointer;
+}
+
+.other {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.curs {
+  cursor: pointer;
+}
+
+.tex-p {
+  color: rgba(22, 24, 35, 1);
+  font-weight: 600;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.forg-pas {
+  color: rgba(22, 24, 35, 0.75);
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+.submit {
+  border-radius: 4px;
+  border: none;
+  color: rgba(22, 24, 35, 0.34);
+  background-color: rgba(22, 24, 35, 0.06);
+  pointer-events: none;
+
+  width: 420px;
+  min-height: 46px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  padding: 6px 8px;
+  cursor: pointer;
+  margin-top: 21px;
+}
+
+.centre {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2100px;
+  display: fex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.password-toggle {
+  position: relative;
+}
+
+.toggle-btn {
+  background-color: rgba(22, 24, 35, 0.06);
+  border: none;
+  width: 100px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.form-input {
+  width: 400px;
+  border-radius: 2px;
+  background-color: rgba(22, 24, 35, 0.06);
+  border: 1px solid;
+  -webkit-padding-start: 12px;
+  padding-inline-start: 12px;
+  color: rgba(22, 24, 35, 1);
+  line-height: 100%;
+  outline: none;
+  font-size: 16px;
+  height: 44px;
+  caret-color: rgba(254, 44, 85, 1);
+  border-color: rgba(22, 24, 35, 0.12);
+  -webkit-padding-end: unset;
+  padding-inline-end: unset;
+}
+
+.input-with-button {
+  position: relative;
+  display: inline-block;
+}
+
+.input-with-button input[type="text"] {
+  padding-right: 0px; /* Для отступа справа от текстового поля */
+}
+
+.input-with-button button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.tiktok-1hvykal-DivCopyright {
+  font-family: ;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #8a8b91;
+  margin-top: -60px;
+  margin-left: 2050px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 42px;
+}
+
+.footer {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.regin {
+  color: #fff;
+  font-weight: 400;
+  width: 200px;
+  height: 20px;
+  position: relative;
+  padding: 10px 10px;
+  border: 1px #fff solid;
+}
+
+.reg {
+  text-align: center;
+  border-top: 1px #c8c8c8 solid;
+}
+
+.footer {
+  background-color: rgba(18, 18, 18, 1.0);
+    margin: -8px;
+    height:100px;
+}
+
+.registr {
+  color: rgba(254, 44, 85, 1);
+}
+
+.password-toggle {
+  margin-top: 5px;
+}
+
+.ul-log {
+  margin-left: 840px;
+  margin-top: 10px;
+  gap: 100px;
+}
+
+main {
+  height: 1081px;
+}
